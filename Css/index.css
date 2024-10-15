@@ -1,0 +1,139 @@
+body{
+    background-image:url('https://plus.unsplash.com/premium_photo-1701590725721-add548ecdf61?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D');
+    
+    background-size: cover;
+    background-repeat: no-repeat;  
+    opacity: 1;
+    /* background: linear-gradient(to left,black,black); */
+}
+.booking{
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: transparent;
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    border:2px solid black;
+    width:710px;
+    height:620px;
+    border-radius: 20px;
+    /* background-color: white; */
+    margin-left: 300px;
+}
+#journeyfrom{
+    width:300px;
+    margin-left: 40px;
+}
+#journeyto{
+    width:300px;
+    margin-left: 40px;
+}
+#trainname{
+    width:300px;
+    margin-left:40px;
+}
+#trainno{
+    width:300px;
+    margin-left: 40px;
+}
+#gender{
+    width:300px;
+    margin-left:40px;
+}
+#dat{
+    width:300px;
+    margin-left: 10px;
+}
+#name{
+    width:300px;
+    margin-left: 10px;
+}
+#phno{
+    width:300px;
+    margin-left: 10px;
+    
+}
+#aadhar{
+    width:300px;
+    margin-left: 10px;
+}
+#age{
+    width:300px;
+    margin-left: 10px;
+}
+.flex{
+    display:flex;
+    /* background-color: wheat; */
+    padding-left:10px;
+    padding-right:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;  
+}
+.j{
+    margin-left: 40px;
+}
+h2{
+    text-align: center;
+    color:black;
+}
+label{
+    font-size: 20px;
+    margin-left: 10px;
+    color:black;
+}
+input{
+    width:400px;
+    height:40px;
+}
+button{
+    background: linear-gradient(to left,whitesmoke,whitesmoke);
+    width:150px;
+    height:40px;
+    margin-left: 280px;
+    border-color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+  
+    
+      background-image: linear-gradient(to left,aqua,aqua);
+      border: 1px solid white;
+      border-radius: 4px;
+      box-sizing: border-box;
+      color: black;
+      cursor: pointer;
+      direction: ltr;
+      display: block;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: -.022em;
+      line-height: 1.47059;
+      min-width: 30px;
+      overflow: visible;
+      padding: 4px 15px;
+      text-align: center;
+      vertical-align: baseline;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      white-space: nowrap;
+    
+      cursor: default;
+      opacity: 1;
+
+      background-image: linear-gradient(to left,black,black);
+      border-color: black;
+      text-decoration: none;
+    
+      background-image: linear-gradient(to left,aqua,aqua);
+      border-color: black;
+      outline: none;
+    
+      box-shadow: black 0 0 0 3px;
+      outline: none;
+    
+}
+span{
+    margin-left: 20px;
+}

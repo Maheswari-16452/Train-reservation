@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Document</title>
+    <link rel="stylesheet" href="./Css/index.css" >
+    <script src="./Js/index.js"></script>
+  </head>
+  <body>
+   
+    <form>
+      <div class="booking">
+        <h2>Ticket Reservation Details</h2>
+
+      <div class="flex">
+        <div class="first">
+        <label>Candidate Name:</label><br >
+        <input type="text" id="name" placeholder="Enter Name" ><br>
+        <span id="nameerr" style="color:red "></span><br>
+        
+        <label>Phone No:</label><br >
+        
+        <input type="text" id="phno" placeholder="Enter PhoneNo" ><br >
+        <span id="phoneerr" style="color:red "></span><br>
+       
+        
+        <label>Aadhar Number:</label><br>
+        
+        <input type="text" id="aadhar" placeholder="Enter AadharNo" ><br >
+        <span id="aadharerr" style="color:red "></span><br>
+        
+        <label> Candidate Age:</label><br>
+        
+        <input type="text" id="age" placeholder="Enter age" ><br >
+        <span id="ageerr" style="color:red "></span><br>
+        
+       
+        <label>Date: </label><br>
+        <input type="date" id="dat" placeholder="Enter date"><br>
+        </div>
+       
+        
+        <div class="first">
+          <label class="j">Train Name:</label><br>
+          <input type="text" id="trainname" placeholder="Enter Train Name"><br>
+          <span id="trainnameerr" style="color:red "></span><br>
+  
+          <label class="j">TrainNo:</label><br>
+          <input type="text" id="trainno" placeholder="Enter Train No"><br>
+          <span id="trainnoerr" style="color:red "></span><br>
+  
+          <label class="j">Gender:</label><br>
+          <input type="text" id="gender" placeholder="Enter Gender"><br>
+          <span id="gendererr" style="color:red "></span><br>
+
+        <label class="j">Journey From:</label><br>
+        <input type="text" id="journeyfrom" placeholder="Enter journey from"><br>
+        <span id="journeyfromerr" style="color:red "></span><br>
+       
+        <label class="j">Journey To:</label><br>
+        <input type="text" id="journeyto" placeholder="Enter journey to"><br>
+        <span id="journeytoerr" style="color:red "></span><br>
+        <br>
+        </div>
+        
+      </div>  
+        <br>
+        <button type="button" onclick="booked()">Book Ticket</button><br >
+        <br>
+      </div>
+    </form>
+  </body>
+</html>
